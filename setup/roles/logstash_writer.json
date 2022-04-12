@@ -9,7 +9,8 @@
       "names": [
         "logs-generic-default",
         "logstash-*",
-        "ecs-logstash-*"
+        "ecs-logstash-*",
+        "syslog-*"
       ],
       "privileges": [
         "write",
@@ -22,7 +23,8 @@
     {
       "names": [
         "logstash",
-        "ecs-logstash"
+        "ecs-logstash",
+        "syslog"
       ],
       "privileges": [
         "write",
