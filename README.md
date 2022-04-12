@@ -1,4 +1,4 @@
-# Elastic stack (ELK) on Docker SIMPLIFIED version
+# Elastic stack (ELK) on Docker SIMPLIFIED version 7.17.2 <= This branch will remain at ver. 7
 
 Run the latest version of the [Elastic stack][elk-stack] with Docker and Docker Compose.
 
