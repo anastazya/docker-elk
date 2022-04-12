@@ -84,7 +84,7 @@ interact with the Docker daemon.*
 
 By default, the stack exposes the following ports:
 
-* 514: Logstash SYSLOG TCP input
+* 514: Logstash SYSLOG UDP input
 * 9600: Logstash monitoring API
 * 9200: Elasticsearch HTTP
 * 9300: Elasticsearch TCP transport
