@@ -14,6 +14,7 @@ Based on the official Docker images from Elastic:
 
 Other available stack variants:
 
+* [`original`](https://github.com/deviantony/docker-elk): Original repo
 * [`tls`](https://github.com/deviantony/docker-elk/tree/tls): TLS encryption enabled in Elasticsearch
 * [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
 
@@ -41,10 +42,8 @@ own_.
 1. [Usage](#usage)
    * [Bringing up the stack](#bringing-up-the-stack)
    * [Initial setup](#initial-setup)
-     * [Setting up user authentication](#setting-up-user-authentication)
      * [Injecting data](#injecting-data)
    * [Cleanup](#cleanup)
-   * [Version selection](#version-selection)
 1. [Configuration](#configuration)
    * [How to configure Elasticsearch](#how-to-configure-elasticsearch)
    * [How to configure Kibana](#how-to-configure-kibana)
