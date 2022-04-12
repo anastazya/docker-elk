@@ -14,6 +14,8 @@ Based on the official Docker images from Elastic:
 
 Other available stack variants:
 
+* [`light`](https://github.com/anastazya/docker-elk/tree/light): This is the simplest and lightest option
+
 * [`original`](https://github.com/deviantony/docker-elk): Original repo
 * [`tls`](https://github.com/deviantony/docker-elk/tree/tls): TLS encryption enabled in Elasticsearch
 * [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
