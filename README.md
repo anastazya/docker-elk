@@ -115,7 +115,7 @@ above command.*
 Give Kibana about a minute to initialize, then access the Kibana web UI by opening <http://localhost:5601> in a web
 browser.
 
-#### Injecting data
+### Injecting data
 
 Open the Kibana web UI by opening <http://localhost:5601> in a web browser
 
