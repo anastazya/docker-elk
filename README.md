@@ -114,7 +114,7 @@ $ docker-compose up
 *:information_source: You can also run all services in the background (detached mode) by appending the `-d` flag to the
 above command.*
 
-Give Kibana about a minute to initialize, then access the Kibana web UI by opening <http://localhost:5601> in a web
+Give Kibana about a minute ( or four on slower machines ) to initialize, then access the Kibana web UI by opening <http://localhost:5601> in a web
 browser.
 
 ### Injecting data
@@ -130,6 +130,9 @@ $ nc -w1 -u localhost 514 <<< "testing messages from local machine"
 ```
 
 You can also load the sample data provided by your Kibana installation.
+
+Port 514 UDP is also exposed on your laptop's LAN ip ( 192.168.1.122 in my case, check you local IP )
+and you can receive logs from another machine in your LAN.
 
 ### Cleanup
 
