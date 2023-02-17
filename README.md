@@ -5,7 +5,6 @@ Run the latest version of the [Elastic stack][elk-stack] with Docker and Docker 
 It gives you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and
 the visualization power of Kibana.
 
-
 Based on the official Docker images from Elastic:
 
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/master/distribution/docker)
@@ -64,7 +63,7 @@ own_.
 * [Docker Compose][compose-install] version **1.26.0** or newer (including [Compose V2][compose-v2])
 * 1.5 GB of RAM
 
-*:information_source: Especially on Linux, make sure your user has the [required permissions][linux-postinstall] to
+* :information_source: Especially on Linux, make sure your user has the [required permissions][linux-postinstall] to
 interact with the Docker daemon.*
 
 By default, the stack exposes the following ports:
@@ -103,10 +102,10 @@ Clone this repository onto the Docker host that will run the stack, then start t
 Compose:
 
 ```console
-$ docker-compose up
+docker-compose up
 ```
 
-*:information_source: You can also run all services in the background (detached mode) by appending the `-d` flag to the
+* :information_source: You can also run all services in the background (detached mode) by appending the `-d` flag to the
 above command.*
 
 Give Kibana about a minute to initialize, then access the Kibana web UI by opening <http://localhost:5601> in a web
@@ -121,7 +120,7 @@ allows you to send content via UDP:
 
 ```console
 # Using BSD netcat (Debian, Ubuntu, MacOS system, ...)
-$ nc -w1 -u localhost 514 <<< "testing messages from local machine"
+nc -w1 -u localhost 514 <<< "testing messages from local machine"
 ```
 
 You can also load the sample data provided by your Kibana installation.
@@ -133,12 +132,12 @@ Elasticsearch data is persisted inside a volume by default.
 In order to entirely shutdown the stack and remove all persisted data, use the following Docker Compose command:
 
 ```console
-$ docker-compose down -v 
+docker-compose down -v 
 ```
 
 ## Configuration
 
-*:information_source: Configuration is not dynamically reloaded, you will need to restart individual components after
+* :information_source: Configuration is not dynamically reloaded, you will need to restart individual components after
 any configuration change.*
 
 ### How to configure Elasticsearch
